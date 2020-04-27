@@ -1,0 +1,11 @@
+{
+    "name": "Zoho Branch Title Generator",
+    "description": "*",
+    "version": "0.1",
+    "minimum_chrome_version": "16.0.884",
+    "permissions": ["activeTab", "tabs"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
