@@ -25,6 +25,7 @@ function cleanUpSpecialChars(str) {
     .replace(/[òóô]/g, "o")
     .replace(/[ÙÚÛ]/g, "U")
     .replace(/[ùúû]/g, "u")
+    .replace(/[ç]/g, "c")
     .replace(/[^\w\s]/gi, '')
     .split(' ').join('-');
 }

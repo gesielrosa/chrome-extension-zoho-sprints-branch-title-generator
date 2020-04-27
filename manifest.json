@@ -1,7 +1,10 @@
 {
     "name": "Zoho Branch Title Generator",
-    "description": "*",
+    "short_name": "Branch Title",
+    "description": "by Gesiel Rosa",
     "version": "0.1",
+    "default_locale": "en",
+    "homepage_url": "http://www.gesiel.com/",
     "minimum_chrome_version": "16.0.884",
     "permissions": ["activeTab", "tabs"],
     "browser_action": {
