@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7cc774b-72c0-4c94-9df4-bee13d30fab3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +38,38 @@
       <workItem from="1588005590139" duration="7392000" />
       <workItem from="1588014970826" duration="101000" />
       <workItem from="1588015198784" duration="161000" />
+      <workItem from="1588017949212" duration="1230000" />
     </task>
+    <task id="LOCAL-00001" summary="Replace ç to c">
+      <created>1588018178435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588018178435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Replace ç to c" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace ç to c" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-1335" y="113" key="CommitChangelistDialog2" timestamp="1588018177679">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1335" y="113" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588018177679" />
     <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1588015357391">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588015357391" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588018183717">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588018183717" />
     <state x="-1828" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588008790584">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
