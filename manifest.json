@@ -7,13 +7,12 @@
     "minimum_chrome_version": "16.0.884",
     "permissions": [
         "tabs",
-        "http://*/*",
-        "https://*/*"
+        "https://sprints.zoho.com/*"
     ],
     "content_scripts": [
         {
             "matches": [
-                "https://*.zoho.com/*"
+                "https://sprints.zoho.com/*"
             ],
             "js": [
                 "script.js"
