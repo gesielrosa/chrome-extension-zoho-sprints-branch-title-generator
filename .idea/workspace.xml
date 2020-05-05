@@ -4,6 +4,7 @@
     <list default="true" id="e7cc774b-72c0-4c94-9df4-bee13d30fab3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/popup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,8 @@
       <workItem from="1588014970826" duration="101000" />
       <workItem from="1588015198784" duration="161000" />
       <workItem from="1588017949212" duration="1230000" />
+      <workItem from="1588078687479" duration="105000" />
+      <workItem from="1588717157576" duration="2750000" />
     </task>
     <task id="LOCAL-00001" summary="Replace ç to c">
       <created>1588018178435</created>
@@ -47,7 +50,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588018178435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove activeTab permission">
+      <created>1588078773010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588078773010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -55,21 +65,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Replace ç to c" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace ç to c" />
+    <MESSAGE value="Remove activeTab permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove activeTab permission" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1335" y="113" key="CommitChangelistDialog2" timestamp="1588018177679">
+    <state x="-1335" y="113" key="CommitChangelistDialog2" timestamp="1588078772116">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="113" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588018177679" />
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1588015357391">
+    <state x="-1335" y="113" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588078772116" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1588078791015">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588015357391" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588018183717">
+    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588078791015" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588078777209">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588018183717" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588078777209" />
     <state x="-1828" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588008790584">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

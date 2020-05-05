@@ -8,15 +8,15 @@ function isCurrentTabZohoItemDetails () {
     currentWindow: true
   }, ([currentTab]) => {
     if (currentTab.url.indexOf('itemdetails') > -1) {
-      generateBranchTitle();
+      generateBranchTitle(currentTab.id);
     } else {
       document.getElementById('error').innerText = 'Go to Zoho Sprints item details to generate the branch title!';
     }
   });
 }
 
-function generateBranchTitle() {
-  chrome.tabs.executeScript({
+function generateBranchTitle(id) {
+  chrome.tabs.executeScript(id, {
     file: "script.js"
   }, function () {
     console.log("script.js injected")
