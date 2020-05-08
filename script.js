@@ -13,6 +13,7 @@ function openPrompt() {
   let taskId = getAllElementsWithAttribute('data-zsqa')[0].innerText;
 
   prompt("Branch title", `${taskId}-${epic.toUpperCase()}-${cleanUpSpecialChars(title)}`);
+  prompt("PR title", `${taskId} - ${epic.toUpperCase()} - ${cleanUpSpecialChars(title).split('-').join(' ')}`);
 }
 
 function getAllElementsWithAttribute(attribute) {
