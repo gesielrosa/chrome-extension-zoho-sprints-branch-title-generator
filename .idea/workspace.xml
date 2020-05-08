@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7cc774b-72c0-4c94-9df4-bee13d30fab3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/icons/icon128.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\development\WebstormProjects\zoho_branch_title\icons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\development\WebstormProjects\zoho_branch_title" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -45,7 +52,7 @@
       <workItem from="1588717157576" duration="2994000" />
       <workItem from="1588720617123" duration="848000" />
       <workItem from="1588764686308" duration="185000" />
-      <workItem from="1588947979833" duration="2783000" />
+      <workItem from="1588947979833" duration="7230000" />
     </task>
     <task id="LOCAL-00001" summary="Replace ç to c">
       <created>1588018178435</created>
@@ -75,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588721458581</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor: Inject script just once&#10;&#10;Add characters to replace dictionary">
+      <created>1588954915078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588954915078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,13 +100,14 @@
     <MESSAGE value="Remove activeTab permission" />
     <MESSAGE value="Add url permissions" />
     <MESSAGE value="Add zoho url permission" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add zoho url permission" />
+    <MESSAGE value="refactor: Inject script just once&#10;&#10;Add characters to replace dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Inject script just once&#10;&#10;Add characters to replace dictionary" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1335" y="113" key="CommitChangelistDialog2" timestamp="1588721457934">
+    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2" timestamp="1588954914431">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="113" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588721457934" />
+    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588954914431" />
     <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1588764870131">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
