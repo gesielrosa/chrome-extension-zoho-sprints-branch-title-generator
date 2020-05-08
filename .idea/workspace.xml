@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e7cc774b-72c0-4c94-9df4-bee13d30fab3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <workItem from="1588717157576" duration="2994000" />
       <workItem from="1588720617123" duration="848000" />
       <workItem from="1588764686308" duration="185000" />
-      <workItem from="1588947979833" duration="7468000" />
+      <workItem from="1588947979833" duration="8147000" />
     </task>
     <task id="LOCAL-00001" summary="Replace ç to c">
       <created>1588018178435</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588955328280</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: Add PR title generation">
+      <created>1588955564243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588955564243</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,21 +122,22 @@
     <MESSAGE value="refactor: Inject script just once&#10;&#10;Add characters to replace dictionary" />
     <MESSAGE value="feat: Add icon" />
     <MESSAGE value="refactor: Rename html title" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Rename html title" />
+    <MESSAGE value="feat: Add PR title generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add PR title generation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2" timestamp="1588955327712">
+    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2" timestamp="1588955563640">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588955327712" />
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1588764870131">
+    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588955563640" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1588956131466">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588764870131" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588078777209">
+    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588956131466" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588955568339">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588078777209" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588955568339" />
     <state x="-1828" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588008790584">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

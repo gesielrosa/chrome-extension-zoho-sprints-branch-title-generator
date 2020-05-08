@@ -29,7 +29,6 @@ function injectContentScript(id) {
       chrome.tabs.executeScript(id, {
         file: "script.js"
       }, () => {
-        window.injected = true;
         openPrompt(id);
       });
     }
