@@ -2,24 +2,37 @@ window.onload = function () {
   document.getElementById('generate').onclick = isCurrentTabZohoItemDetails;
 };
 
-function isCurrentTabZohoItemDetails () {
+function openPrompt(id) {
+  chrome.tabs.sendMessage(id, null);
+}
+
+function isCurrentTabZohoItemDetails() {
   chrome.tabs.query({
     active: true,
     currentWindow: true
   }, ([currentTab]) => {
     if (currentTab.url.indexOf('itemdetails') > -1) {
-      generateBranchTitle(currentTab.id);
+      injectContentScript(currentTab.id);
     } else {
       document.getElementById('error').innerText = 'Go to Zoho Sprints item details to generate the branch title!';
     }
   });
 }
 
-function generateBranchTitle(id) {
+function injectContentScript(id) {
   chrome.tabs.executeScript(id, {
-    file: "script.js"
-  }, function () {
-    console.log("script.js injected")
+    code: 'document.getElementById(\'injected\');'
+  }, (result) => {
+    if (result) {
+      openPrompt(id);
+    } else {
+      chrome.tabs.executeScript(id, {
+        file: "script.js"
+      }, () => {
+        window.injected = true;
+        openPrompt(id);
+      });
+    }
   });
 }
 

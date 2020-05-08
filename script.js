@@ -1,8 +1,19 @@
-epic = prompt("Please enter project title", 'RHIZOM');
-title = document.getElementsByTagName("textarea")[0].innerHTML;
-taskId = getAllElementsWithAttribute('data-zsqa')[0].innerText;
+let node = document.createElement('div');
+node.setAttribute('id', 'injected');
+node.style.display = "none";
+document.body.appendChild(node);
 
-prompt("Branch title", `${taskId}-${epic.toUpperCase()}-${cleanUpSpecialChars(title)}`);
+chrome.runtime.onMessage.addListener(() => {
+  openPrompt();
+});
+
+function openPrompt() {
+  let epic = prompt("Please enter project title", 'RHIZOM');
+  let title = document.getElementsByTagName("textarea")[0].innerHTML;
+  let taskId = getAllElementsWithAttribute('data-zsqa')[0].innerText;
+
+  prompt("Branch title", `${taskId}-${epic.toUpperCase()}-${cleanUpSpecialChars(title)}`);
+}
 
 function getAllElementsWithAttribute(attribute) {
   let matchingElements = [];
@@ -21,11 +32,11 @@ function cleanUpSpecialChars(str) {
     .replace(/[àáâãäå]/g, "a")
     .replace(/[ÈÉÊË]/g, "E")
     .replace(/[èéêë]/g, "e")
-    .replace(/[ÒÓÔ]/g, "O")
-    .replace(/[òóô]/g, "o")
+    .replace(/[ÒÓÔÕ]/g, "O")
+    .replace(/[òóôõ]/g, "o")
     .replace(/[ÙÚÛ]/g, "U")
     .replace(/[ùúû]/g, "u")
-    .replace(/[ç]/g, "c")
+    .replace(/[çÇ]/g, "c")
     .replace(/[^\w\s]/gi, '')
     .split(' ').join('-');
 }
