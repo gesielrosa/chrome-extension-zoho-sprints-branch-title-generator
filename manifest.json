@@ -1,7 +1,7 @@
 {
-    "name": "Zoho Sprints Branch Title Generator",
+    "name": "Zoho Sprints Git Branch Title Generator",
     "short_name": "Branch Title",
-    "description": "by Gesiel Rosa",
+    "description": "This extension generates a git branch title based on data from a Zoho Sprints item/task.",
     "version": "0.3",
     "homepage_url": "http://www.gesiel.com/",
     "minimum_chrome_version": "16.0.884",
