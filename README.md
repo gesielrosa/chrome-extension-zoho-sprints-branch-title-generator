@@ -7,7 +7,8 @@
 ![](https://img.shields.io/chrome-web-store/users/ambcebkhpiijcbclphlnpfhklagkdmfa)
 ![](https://img.shields.io/chrome-web-store/v/ambcebkhpiijcbclphlnpfhklagkdmfa)
 
-This extension generates a git branch title based on data from a Zoho Sprints item/task.
+
+This Chrome Extension generates a git branch title based on data from a Zoho Sprints item/task.
 
 ------
 
