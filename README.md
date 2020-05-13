@@ -1,12 +1,13 @@
-# Zoho Sprints Branch Title Generator
+# Zoho Sprints - Git Branch Title Generator
+
+[Web Store](https://chrome.google.com/webstore/detail/zoho-sprints-branch-title/ambcebkhpiijcbclphlnpfhklagkdmfa)
 
 ![](https://img.shields.io/chrome-web-store/price/ambcebkhpiijcbclphlnpfhklagkdmfa?label=free)
 ![](https://img.shields.io/chrome-web-store/rating/ambcebkhpiijcbclphlnpfhklagkdmfa)
 ![](https://img.shields.io/chrome-web-store/users/ambcebkhpiijcbclphlnpfhklagkdmfa)
 ![](https://img.shields.io/chrome-web-store/v/ambcebkhpiijcbclphlnpfhklagkdmfa)
 
-
-This extension generates a branch title based on data from a Zoho Sprints item/task.
+This extension generates a git branch title based on data from a Zoho Sprints item/task.
 
 ------
 

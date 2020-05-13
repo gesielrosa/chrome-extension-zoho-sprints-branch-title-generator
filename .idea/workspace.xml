@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7cc774b-72c0-4c94-9df4-bee13d30fab3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,9 @@
       <workItem from="1588764686308" duration="185000" />
       <workItem from="1588947979833" duration="8147000" />
       <workItem from="1588956311951" duration="61000" />
-      <workItem from="1589326508384" duration="847000" />
+      <workItem from="1589326508384" duration="1058000" />
+      <workItem from="1589328143559" duration="10000" />
+      <workItem from="1589369561379" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="Replace ç to c">
       <created>1588018178435</created>
@@ -119,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588956340277</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat(readme): Add readme">
+      <created>1589327410834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589327410834</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,21 +144,22 @@
     <MESSAGE value="refactor: Rename html title" />
     <MESSAGE value="feat: Add PR title generation" />
     <MESSAGE value="refactor: Remove unused code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Remove unused code" />
+    <MESSAGE value="feat(readme): Add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(readme): Add readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2" timestamp="1588956339680">
+    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2" timestamp="1589327410230">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588956339680" />
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1588956372148">
+    <state x="-1394" y="113" width="1018" height="814" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589327410230" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1589328151833">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588956372148" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588956350589">
+    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589328151833" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589327414620">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588956350589" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589327414620" />
     <state x="-1828" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588008790584">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
