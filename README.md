@@ -25,4 +25,4 @@ This extension was created to gain knowledge, don't take it seriously. But it wo
 ------
 
 #### Author:
-Gesiel Rosa - gesiel.com - me@gesiel.com
+Gesiel Rosa - gesiel.com - contact@gesiel.com
